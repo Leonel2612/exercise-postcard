@@ -1,0 +1,83 @@
+body {
+	background: black;
+	font-family: "Courier New", Courier, monospace;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+	margin: 0;
+}
+
+.postcard {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+	font-family: "Courier New", Courier, monospace;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+
+.postcard-header h1 {
+	width: 310px;
+	margin: 5px 5px 0 0;
+	padding-top: 10px;
+	flex: 1;
+	text-align: left;
+	margin-left: 0px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.body-left {
+	flex: 1;
+	padding: 10px;
+}
+.body-right {
+	padding: 10px;
+	flex: 1;
+}
+
+input {
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	outline: darkgray;
+	font-size: 17px; /* Adjust font size */
+	color: #333; /* Adjust text color */
+	transition: border-color 0.3s ease-in-out, back-shadow 0.3s ease-in-out;
+	border-color: #333;
+	border-bottom: 6px solid darkgray;
+}
+
+input:focus {
+	border-color: #ddd;
+	box-shadow: 0 0 5px #00bfff;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	font-family: "Courier New", Courier, monospace;
+	background-color: grey;
+	padding: 10px;
+}
